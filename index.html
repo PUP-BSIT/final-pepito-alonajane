@@ -1,161 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pepito, Alona Jane Navarro</title>
-    <link href="styles.css" rel="stylesheet"/>
-  </head>
-  <body>
-    <div class="box">
-      <h1 class="box-heading">Alona Jane Navarro Pepito </h1>
-        <p class="box-paragraph">Welcome to my website!</p>
-          <div class="container">
-           <div class="section">
-             <h2>My interests and hobbies</h2>
-                <ul>
-                  <li>I love to cook</li>
-                  <li>I love to watch movies</li>
-                  <li>I like to go to new places</li>
-                  <li>I love cats</li>
-                  <li>I love listening songs</li>
-                </ul>
-           </div> 
-          </div>
-      <div class="container">
-        <div class="section">
-         <h2>My works</h2>
-           <ol>
-             <li><a href="#">html 1</a></li>
-             <li><a href="#">html 2</a></li>
-             <li><a href="#">html 3</a></li>
-             <li><a href="#">html 4</a></li>
-             <li><a href="#">html 5</a></li>
-           </ol>
-        </div>
-      </div>
-    <div class="container">
-      <div class="section">
-         <h2>My Goals</h2>
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
             <ul>
-              <li>Finish my education.</li>
-              <li>Get a good job.</li>
-              <li>Open a Restaurant/Bakery</li>
-              <li>Give back to my parents.</li>
-              <li>Financial Stability.</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#goals">My Goals</a></li>
+                <li><a href="#future">5 Years From Now</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
-      </div>
-    </div>
-     <div class="container">
-       <div class="section">
-         <h2>Comments</h2>
-            <button id="sort_asc_btn">
-            Sort by Date Ascending</button>
-            <button id="sort_desc_btn">
-               Sort by Date Descending</button>
-              <div id="commentsSection"></div>
-       </div> 
-     </div>
-      <div class="container">
-        <div class="section">
-          <h3>Leave your comment here!</h3>
-            <form id="comment_form">
-              <input type="text"
-               id="name" 
-               placeholder="Your Name">
-              <textarea id="comment" 
-               placeholder="Your Comment"></textarea>
-              <button id="comment_btn"disabled>
-               Comment</button>
-            </form>
-        </div> 
-      </div>
-     <div class="container">
-       <div class="section">
-         <h2>Testimonials</h2>
-            <ul>
-              <li>Good work and creativity shows 
-               on her website.It also cute and
-               clearly shows her theme. - Sofia
-              </li>
-              <li>The consistent design elements 
-               and color schemes across the website
-               create a cohesive and professional
-               look. - Mikaella
-              </li>
-              <li>You have a knack for turning 
-               ordinary concepts into extraordinary 
-               works of art. -Precious 
-             </li>
-              <li>Kudos to you for creating this 
-               amazing webpage. Good job! - Eliza
-             </li>
-           </ul>
-       </div>  
-     </div>
-     <div class="container">
-       <div class="section">
-         <h2>My Thoughts About Conducting Online Class</h2>
-           <p>Conducting an online class during this high
-              heat index may cause a lot of problem or sticky 
-              situations such as having problem with internet 
-              connection or sickness amidst high heat index.
-              We and our seniors (BSIT 3-1), conducted face
-              to face classes might be because this mode of
-              learning will help us much through understand 
-              the lesson. I am bad at understanding things
-              and by that day,i wouldn't be able to understand 
-              a bit of information of javascript if i did not 
-              attend the face-to-face class.
-           </p>
-       </div>
-     </div>
-     <div class="image-container">
-       <div class="gallery">
-          <h2>Gallery</h2>
-             <img src="https://i.pinimg.com/736x/3a/58/1d/3a581d415c37c42b793cc7914ce8118c.jpg">
-             <img src="https://i.pinimg.com/736x/3a/a0/38/3aa038ac501f02ac6b3c0f06b905cb6c.jpg">
-             <img src="https://i.pinimg.com/736x/9c/eb/36/9ceb3620d92fc7048a6b8188f84c7294.jpg">
-             <img src="https://i.pinimg.com/736x/90/57/40/905740a85b432913dfbe9906ac39a44f.jpg">
-             <img src="https://i.pinimg.com/736x/cb/9c/5b/cb9c5be444873f9054e1f9a0c99616bc.jpg">
-       </div>
-     </div>
-   <div class="contact">
-     <div class="header">
-        <h2> Contact Me</h2>
-     </div>
-         <form>
-            <div class="email">
-               <label for="email">Email:</label>
-               <input type="email" id="email" name="email">
-             </div>
-            <div class="full_name">
-               <label for="full_name">Full Name:</label>
-               <input type="text" id="full_name" name="full_name">
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section home-section">
+            <video autoplay muted loop id="bg-video">
+                <source src="images/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="home-content">
+                <img src="images/pfp.png" alt="Profile Picture"
+                 class="profile-picture">
+                <div id="welcome">
+                    <p>Hi, I'm Alona</p>
+                </div>
+                <p>Welcome to my website!</p>
+        </section>
+        <section id="about" class="section">
+            <div class="content">
+                <h2>About Me</h2>
+                <p>Hello! My name is Alona Jane Navarro Pepito, 19 year-old
+                   and I am currently studying Diploma in Information 
+                   Technology at Polytechnic University of The Philippines 
+                   Taguig Branch. I enjoy listening to different genre of 
+                   music, i also enjoy watching and i love my cat, lottie.
+                </p>
             </div>
-            <div class="age">
-               <label for="age">Age:</label>
-               <input type="number" id="age" name="age">
+        </section>
+        <section id="goals" class="section">
+            <div class="content">
+                <h2>My Goals</h2>
+                <p>My first goal is to finish my studies, though learning
+                    never stops, my first goal is to graduate.
+                </p>
+                <p>Another goal is to have a stable work, with nice workmates,
+                    boss, and most importantly a job where i am inspired to
+                    work everyday.
+                </p>
+                <p>Finally treat and support my parents and siblings, being an
+                    an eldest daughter, all this sacrifices will be all be
+                    worth it soon because of them.
+                </p>
             </div>
-            <div class="subject">
-               <label for="subject">Subject:</label>
-               <input type="text" id="subject" name="subject">
+        </section>
+        <section id="future" class="section">
+            <div class="content">
+                <h2>5 Years From Now</h2>
+                <p>As an average student in class 2025, how do I see myself 
+                    five years from now?
+                </p>
+                <p>Since I was a kid, I have always wanted to be one of the 
+                    most successful chefs. Wait? How is being a chef connected
+                     to the IT industry?
+                    Of course, nothing! From a family that is financially 
+                    struggling, getting accepted at a university that has no
+                     fees was a big thing. I was lucky, indeed!
+                </p>
+                <p>But the dream of being one of the most successful chefs 
+                    didn't work out. I got accepted at PUP Taguig, but the 
+                    course that I was bumped into was a diploma.
+                    in information technology. I was stuck in a decision about
+                     whether I would pursue my dream or accept the opportunity
+                      I was facing. That 18-year-old back then
+                    doesn't know anything about computers. How can she 
+                    survive?
+                </p>
+                <p>In the first year of my college life, I enjoy how we 
+                    assemble and disassemble parts of system units. My first 
+                    impression was that IT was not that difficult, but then I 
+                    was wrong.
+                    That was when I encountered programming. I'll be honest,
+                     programming has always been my enemy. I'm always having 
+                     a hard time debugging and understanding how some programs
+                      work.
+                    but I didn't stop. They say IT is a big industry; maybe I
+                     am not good at programming; maybe I am just a late 
+                     bloomer; who knows?
+                </p>
+                <p>Five years from now, I am praying and manifesting that I'll
+                     be sitting in those offices where I can call myself part
+                      of this industry.
+                    I know that the journey won't be easy, and I aspire to
+                     learn more and accept all the challenges I will be 
+                     facing. Maybe this was never my first choice or my dream.
+                    But to be in this situation of life where I can clearly 
+                    see how we are struggling so much in terms of financial 
+                    problems, who am I to quit?
+                </p>
             </div>
-            <div class="copy">
-               <label for="copy">Send me a copy</label>
-               <input type="checkbox" name="copy" id="copy"/>
-            </div>
-            <div class="message">
-               <label for="message">Message:</label>
-               <textarea id="message"  name="message"
-               rows="5" cols="33"></textarea>
-            </div>
-           <div class="submit">
-            <button type="submit">Submit</button>
-            </div>
-   </div>
-       </form>
-    </div>
-   <script src="script.js"></script>
+        </section>
+        <section id="contact" class="section">
+          <div class="header">
+              <h2>Contact Me</h2>
+          </div>
+          <form>
+              <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                  <label for="full_name">Full Name:</label>
+                  <input type="text" id="full_name" name="full_name" required>
+              </div>
+              <div class="form-group">
+                  <label for="age">Age:</label>
+                  <input type="number" id="age" name="age" required>
+              </div>
+              <div class="form-group">
+                  <label for="subject">Subject:</label>
+                  <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                  <label for="copy">Send me a copy</label>
+                  <input type="checkbox" name="copy" id="copy">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" cols="33" 
+                           required>
+                  </textarea>
+              </div>
+              <div class="form-group">
+                  <button type="submit">Submit</button>
+              </div>
+          </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
